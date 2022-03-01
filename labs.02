@@ -1,3 +1,5 @@
+ Václav David
+ 
  p_stimulus : process
     begin
         -- Report a note at the beginning of stimulus process
