@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Mar 16 11:36:56 2022
+# Process ID: 9724
+# Current directory: D:/Documents/xdavid19/digital.electronics.1/labs/05-ffs/flip_flops/flip_flops.runs/synth_1
+# Command line: vivado.exe -log d_latch.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source d_latch.tcl
+# Log file: D:/Documents/xdavid19/digital.electronics.1/labs/05-ffs/flip_flops/flip_flops.runs/synth_1/d_latch.vds
+# Journal file: D:/Documents/xdavid19/digital.electronics.1/labs/05-ffs/flip_flops/flip_flops.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source d_latch.tcl -notrace

@@ -1,43 +1,34 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 03/09/2022 11:27:03 AM
--- Design Name: 
--- Module Name: half_adder - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
+------------------------------------------------------------------------
+--
+-- Half adder.
+-- Xilinx XC2C256-TQ144 CPLD, ISE Design Suite 14.7
+--
+-- Copyright (c) 2019-2020 Tomas Fryza
+-- Dept. of Radio Electronics, Brno University of Technology, Czechia
+-- This work is licensed under the terms of the MIT license.
+--
+------------------------------------------------------------------------
 
+library ieee;
+use ieee.std_logic_1164.all;
 
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
+------------------------------------------------------------------------
+-- Entity declaration for half adder
+------------------------------------------------------------------------
 entity half_adder is
---  Port ( );
-end half_adder;
+port (
+    b_i     : in  std_logic;
+    a_i     : in  std_logic;
+    carry_o : out std_logic;
+    sum_o   : out std_logic
+);
+end entity half_adder;
 
+------------------------------------------------------------------------
+-- Architecture declaration for half adder
+------------------------------------------------------------------------
 architecture Behavioral of half_adder is
-
 begin
-
-
-end Behavioral;
+    -- Logic functions for carry and sum outputs
+    -- WRITE YOUR CODE HERE
+end architecture Behavioral;
